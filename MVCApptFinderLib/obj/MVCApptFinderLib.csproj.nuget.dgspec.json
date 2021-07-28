@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderLib\\MVCApptFinderLib.csproj": {}
+    "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderLib\\MVCApptFinderLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderLib\\MVCApptFinderLib.csproj": {
+    "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderLib\\MVCApptFinderLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderLib\\MVCApptFinderLib.csproj",
+        "projectUniqueName": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderLib\\MVCApptFinderLib.csproj",
         "projectName": "MVCApptFinderLib",
-        "projectPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderLib\\MVCApptFinderLib.csproj",
+        "projectPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderLib\\MVCApptFinderLib.csproj",
         "packagesPath": "C:\\Users\\ryanw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderLib\\obj\\",
+        "outputPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryanw\\AppData\\Roaming\\NuGet\\NuGet.Config"

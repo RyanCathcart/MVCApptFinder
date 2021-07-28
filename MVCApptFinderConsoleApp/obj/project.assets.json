@@ -5259,11 +5259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderConsoleApp\\MVCApptFinderConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderConsoleApp\\MVCApptFinderConsoleApp.csproj",
       "projectName": "MVCApptFinderConsoleApp",
-      "projectPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderConsoleApp\\MVCApptFinderConsoleApp.csproj",
+      "projectPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderConsoleApp\\MVCApptFinderConsoleApp.csproj",
       "packagesPath": "C:\\Users\\ryanw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ryanw\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5278,8 +5278,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderLib\\MVCApptFinderLib.csproj": {
-              "projectPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderLib\\MVCApptFinderLib.csproj"
+            "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderLib\\MVCApptFinderLib.csproj": {
+              "projectPath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderLib\\MVCApptFinderLib.csproj"
             }
           }
         }

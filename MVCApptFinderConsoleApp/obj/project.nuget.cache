@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AjfKHF8dqGQPVnZyikH59Twzoj9MNoIK5gOkqZiGIfwolNXw+sWsCYkrixyM1VzUxjkYA0Ecs/GvXsQsYUBkCA==",
+  "dgSpecHash": "OLD7q5g1gxolbatGoTozfcyq7av/6+ywpeVqHA6p2HL9PEUYyzuXkNh8ICbBnfgnJGZseGxJMTCCjA2YuDtd5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder2\\MVCApptFinderConsoleApp\\MVCApptFinderConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\ryanw\\Documents\\VSCode Projects\\MVCApptFinder\\MVCApptFinderConsoleApp\\MVCApptFinderConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ryanw\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\ryanw\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
