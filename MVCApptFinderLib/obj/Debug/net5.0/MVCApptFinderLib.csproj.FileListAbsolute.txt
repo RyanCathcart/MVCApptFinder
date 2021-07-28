@@ -1,0 +1,12 @@
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\bin\Debug\net5.0\MVCApptFinderLib.deps.json
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\bin\Debug\net5.0\MVCApptFinderLib.dll
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\bin\Debug\net5.0\ref\MVCApptFinderLib.dll
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\bin\Debug\net5.0\MVCApptFinderLib.pdb
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\MVCApptFinderLib.csprojAssemblyReference.cache
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\MVCApptFinderLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\MVCApptFinderLib.AssemblyInfoInputs.cache
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\MVCApptFinderLib.AssemblyInfo.cs
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\MVCApptFinderLib.csproj.CoreCompileInputs.cache
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\MVCApptFinderLib.dll
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\ref\MVCApptFinderLib.dll
+C:\Users\ryanw\Documents\VSCode Projects\MVCApptFinder2\MVCApptFinderLib\obj\Debug\net5.0\MVCApptFinderLib.pdb
