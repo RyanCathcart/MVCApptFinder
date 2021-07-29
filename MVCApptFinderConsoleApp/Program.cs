@@ -14,7 +14,7 @@ namespace MVCApptFinderConsoleApp
 
             while (!exit)
             {
-                Console.Write("Enter a command. Type \"help\" for command list.\n> "); 
+                Console.Write("Enter a command. Type 'help' for command list.\n> "); 
                 
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 string userInput = Console.ReadLine().ToLower();
