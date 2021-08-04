@@ -22,7 +22,7 @@ namespace MVCApptFinderLib
 
             CreateObjectsFromData(locationsDiv.Text);
             
-            PrintLocations();
+            // PrintLocations();
 
             driver.Quit();
         }
