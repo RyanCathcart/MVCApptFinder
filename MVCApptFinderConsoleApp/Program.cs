@@ -66,7 +66,7 @@ namespace MVCApptFinderConsoleApp
             }
             catch (Exception e)
             {
-                Console.WriteLine("The date was not changed.");
+                Console.WriteLine("The date was not changed." + e);
             }
             finally
             {
