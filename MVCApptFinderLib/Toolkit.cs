@@ -8,8 +8,7 @@ namespace MVCApptFinderLib
     public static class Toolkit
     {
         public static IWebDriver driver;
-        public static List<Location> Locations = new List<Location>();
-        public static void LoadData(string url)
+        public static List<Location> LoadData(string url)
         {
             // The two lines below set the Firefox browser to be set to headless mode, which means that the browser won't actually open up/pop-up on-screen.
             FirefoxOptions firefoxOptions = new FirefoxOptions();
@@ -19,16 +18,15 @@ namespace MVCApptFinderLib
             driver.Navigate().GoToUrl(url);
 
             IWebElement locationsDiv = driver.FindElement(By.Id("locationsDiv"));
-
-            CreateObjectsFromData(locationsDiv.Text);
-            
-            // PrintLocations();
-
+            List<Location> locations = CreateObjectsFromData(locationsDiv.Text);
             driver.Quit();
+
+            return locations;
         }
 
-        public static void CreateObjectsFromData(string data)
+        private static List<Location> CreateObjectsFromData(string data)
         {
+            List<Location> locs = new List<Location>();
             string[] lines = data.Split("\n");
 
             for (int i = 0; i < lines.Length; i += 7)
@@ -37,7 +35,7 @@ namespace MVCApptFinderLib
                 {
                     string trimmedDate = lines[i+6].Substring(16, 19);
 
-                    Locations.Add(new Location
+                    locs.Add(new Location
                         {
                             LocationTitle = lines[i],
                             AppointmentType = lines[i + 1],
@@ -55,7 +53,7 @@ namespace MVCApptFinderLib
                 {
                     string trimmedDate = lines[i+7].Substring(16, 19);
 
-                    Locations.Add(new Location
+                    locs.Add(new Location
                         {
                             LocationTitle = lines[i],
                             AppointmentType = lines[i + 1],
@@ -71,14 +69,8 @@ namespace MVCApptFinderLib
                     i++;
                 }
             }
-        }
 
-        public static void PrintLocations()
-        {
-            foreach (Location loc in Locations)
-            {
-                loc.Print();
-            }
+            return locs;
         }
     }
 }

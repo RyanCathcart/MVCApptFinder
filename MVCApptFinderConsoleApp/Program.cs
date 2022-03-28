@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MVCApptFinderLib;
 
 namespace MVCApptFinderConsoleApp
@@ -6,13 +7,14 @@ namespace MVCApptFinderConsoleApp
     class Program
     {
         public static bool Exit = false;
+        public static List<Location> Locations = new List<Location>();
         public static DateTime DateThreshold = DateTime.Today.AddDays(8); // Sets the default date threshold to one week from today.
         
         public static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("New Jersey MVC Appointment Finder");
-            Console.WriteLine($"Current date threshold: Finding appointments before {DateThreshold}");
+            Console.WriteLine($"Current date threshold: {DateThreshold}");
             Console.ForegroundColor = ConsoleColor.Gray;           
 
             while (!Exit)
@@ -23,9 +25,9 @@ namespace MVCApptFinderConsoleApp
                 string userInput = Console.ReadLine().ToLower();
                 Console.ForegroundColor = ConsoleColor.Gray;
 
-                if (userInput.Equals("start"))
+                if (userInput.Equals("run"))
                 {
-                    Start();
+                    Run();
                 }
                 else if (userInput.Equals("quit"))
                 {
@@ -46,10 +48,23 @@ namespace MVCApptFinderConsoleApp
             }
         }
 
-        public static void Start()
+        public static void Run()
         {
             string url = @"https://telegov.njportal.com/njmvc/AppointmentWizard/11";
-            Toolkit.LoadData(url);
+            Locations = Toolkit.LoadData(url);
+            PrintLocations();
+        }
+
+        public static void PrintLocations()
+        {
+            Console.WriteLine($"\nLocations with earliest appointments before {DateThreshold}:\n");
+            foreach (Location location in Locations)
+            {
+                if (location.AppointmentTime <= DateThreshold)
+                {
+                    location.Print();
+                }
+            }
         }
 
         public static void Threshold()
@@ -85,7 +100,7 @@ namespace MVCApptFinderConsoleApp
         public static void Help()
         {
             Console.WriteLine("Commands:");
-            Console.WriteLine("  start     - Begins the appointment searching process.");
+            Console.WriteLine("  run       - Runs the appointment searching process.");
             Console.WriteLine("  quit      - Quits this application.");
             Console.WriteLine("  threshold - Asks for a new date limit to find appointments before.");
             Console.WriteLine("  help      - Lists the commands and what they do.");
